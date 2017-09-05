@@ -1,2 +1,2 @@
 # TimeEditView
-The view based on standart edit text and extended to work with time in edit field.
+The view based on standart android EditText and extended to input time via standart keyboard.
