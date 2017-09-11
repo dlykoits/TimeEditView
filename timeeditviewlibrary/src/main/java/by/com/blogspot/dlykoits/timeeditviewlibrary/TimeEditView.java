@@ -111,6 +111,6 @@ public class TimeEditView extends EditText {
     }
 
     private String msToStr(long ms) {
-        String.format("%02d:%02d", TimeUnit.MILLISECONDS.toHours(), TimeUnit.MILLISECONDS.toMinutes();
+        return String.format("%02d:%02d", TimeUnit.MILLISECONDS.toHours(ms), TimeUnit.MILLISECONDS.toMinutes(ms));
     }
 }
